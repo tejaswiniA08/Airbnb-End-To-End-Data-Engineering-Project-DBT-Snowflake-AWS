@@ -31,6 +31,7 @@ Silver Layer (Cleaned & Standardized)
       ↓
 Gold Layer
 ```
+<img width="561" height="342" alt="Screenshot 2026-01-19 at 7 34 42 PM" src="https://github.com/user-attachments/assets/5dd50d9a-e64e-4db4-a5e1-e017dc6c7fe7" />
 
 ### Technology Stack
 
@@ -52,6 +53,12 @@ Gold Layer
 
 ## 📊 Data Modeling Approach
 
+### S3 bucket and IAM:
+<img width="500" height="371" alt="Screenshot 2026-01-19 at 7 27 19 PM" src="https://github.com/user-attachments/assets/48edd32f-e8d8-43db-86a1-95886499eea4" />
+
+<img width="500" height="341" alt="Screenshot 2026-01-19 at 7 26 32 PM" src="https://github.com/user-attachments/assets/1a94a51e-bc8f-43a8-9f3c-42616016a032" />
+
+
 ### Medallion Architecture
 
 #### 🥉 Bronze Layer (Raw)
@@ -64,6 +71,8 @@ Gold Layer
 * `bronze_bookings`
 * `bronze_hosts`
 * `bronze_listings`
+
+<img width="700" height="310" alt="Screenshot 2026-01-19 at 7 31 23 PM" src="https://github.com/user-attachments/assets/a0c20d23-0ff7-44c8-98c5-17251ee19d2e" />
 
 ---
 
@@ -79,6 +88,8 @@ Gold Layer
 * `silver_hosts`
 * `silver_listings`
 
+<img width="700" height="378" alt="Screenshot 2026-01-19 at 7 30 24 PM" src="https://github.com/user-attachments/assets/4fdb2dd6-992f-450d-9ca0-0085024e817e" />
+
 ---
 
 #### 🥇 Gold Layer (Analytics-Ready)
@@ -91,6 +102,8 @@ Gold Layer
 * `fact` – Star-schema compatible fact table
 * `obt` – One Big Table for ad-hoc analytics
 * Ephemeral models for efficient intermediate joins
+
+<img width="700" height="378" alt="Screenshot 2026-01-19 at 7 28 25 PM" src="https://github.com/user-attachments/assets/4ad5cd32-091b-4415-9665-a3d270a80038" />
 
 ---
 
