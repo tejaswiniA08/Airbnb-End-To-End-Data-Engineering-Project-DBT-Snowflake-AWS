@@ -133,7 +133,7 @@ Airbnb_Snowflake_DBT_Data_Engineer_Project/
 │   ├── ddl.sql
 │   └── resources.sql
 │
-├── aws_dbt_snowflake_project/
+├── aws_dbt_project/
 │   ├── dbt_project.yml
 │   ├── models/
 │   │   ├── sources/
@@ -180,7 +180,7 @@ pip install -e .
 Create `~/.dbt/profiles.yml`:
 
 ```yaml
-aws_dbt_snowflake_project:
+aws_dbt_project:
   target: dev
   outputs:
     dev:
